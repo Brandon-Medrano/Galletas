@@ -5,6 +5,8 @@ var mime = require('mime');
 var colors = require('colors');
 var staticServer = require("./internals/static-server");
 // Importando el objeto configurador
+
+
 var config = require('./config/config');
 // Importando manejadores
 var handlers = require("./internals/handlers");
